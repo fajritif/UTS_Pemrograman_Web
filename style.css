@@ -1,0 +1,512 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 14px;
+    color: #666;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form .forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    color: #666;
+}
+
+.login-form .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form .login-button:hover {
+    background-color: #0056b3;
+}
+
+.login-form .create-account {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+}
+
+.registration-form{
+    padding:20px;
+}
+
+.registration-form h2{
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.registration-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration-form input[ type="text"],
+.registration-form input[ type="password"],
+.registration-form input[ type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.registration-form .register-button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.registration-form .register-button:hover{
+    background-color: #0056b3;
+}
+
+.registration-form .login-link{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[ type="text"],
+input[ type="email"],
+input[ type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+nav a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+main{
+    padding: 20px;
+}
+
+.setoran-form{
+    margin-bottom: 20px;
+}
+
+.setoran-form h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.mahasiswa{
+    margin-bottom: 20px;
+}
+
+.mahasiswa h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+    border-collapse: 10px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container{
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.button.cancel{
+    background-color: #dc3545;
+}
+
+.profile-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-name{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile-id,
+.profile-location{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.profile-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    color: #0056b3;
+}
+
+.container{
+    width: 90%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.student-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.student-table th,
+.student-table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-table th{
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.student-table tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+.hafalan-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.hafalan-table th,
+.hafalan-table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.hafalan-table th{
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.hafalan-table tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+.hafalan-table .status{
+    text-align: center;
+}
+
+.status.selesai{
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status.berjalan{
+    background-color: #FFC107;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status.belum-setor{
+    background-color: #DC3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"]{
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.search-bar button{
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hafalan-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.hafalan-table th,
+.hafalan-table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.hafalan-table th{
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.hafalan-table tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+.hafalan-table .status{
+    text-align: center;
+}
+
+.status.selesai{
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status.berjalan{
+    background-color: #FFC107;
+    color: white;
+    padding: 5px 10px;
+}
+
+.container{
+    width: 400px;
+    margin: 50 px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.button.cancel{
+    background-color: #dc3545;
+}
